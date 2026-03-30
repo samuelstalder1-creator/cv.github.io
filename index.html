@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Samuel Stalder, Data Scientist and ML Engineer building production NLP and generative AI systems."
+      content="Samuel Stalder, Data Scientist and ML Engineer with production experience in NLP and generative AI."
     />
-    <meta name="theme-color" content="#0b1622" />
+    <meta name="theme-color" content="#f6f8f9" />
     <title>Samuel Stalder | Data Scientist / ML Engineer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,14 +21,12 @@
     </script>
   </head>
   <body>
-    <div class="background-glow glow-one" aria-hidden="true"></div>
-    <div class="background-glow glow-two" aria-hidden="true"></div>
     <div class="background-grid" aria-hidden="true"></div>
 
     <header class="site-header">
       <a class="brand" href="#top" aria-label="Go to top of page">
         <span class="brand-mark">SS</span>
-        <span class="brand-text" id="brand-name">Samuel Stalder</span>
+        <span class="brand-text">Samuel Stalder</span>
       </a>
 
       <button
@@ -44,284 +42,133 @@
       <nav class="site-nav" id="site-nav" aria-label="Primary">
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
-        <a href="#research">Research</a>
-        <a href="#skills">Skills</a>
-        <a href="#education">Education</a>
+        <a href="#details">Details</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
     <main id="top">
-      <section class="section hero" id="about">
-        <div class="hero-copy" data-reveal>
-          <p class="eyebrow">Samuel Stalder</p>
-          <h1 class="hero-title" id="hero-role">Data Scientist / ML Engineer</h1>
-          <p class="hero-summary" id="hero-summary">
-            Building production NLP and generative AI systems for enterprise clients, with a
-            background that combines software engineering, research, and pragmatic delivery.
-          </p>
-
-          <div class="meta-cluster">
-            <span class="meta-pill" id="hero-location">Zurich, Switzerland</span>
-            <span class="meta-pill" id="hero-status">BSI Software + ZHAW Data Science M.Sc.</span>
-          </div>
-
-          <div class="chip-row" id="hero-chips" aria-label="Core focus areas">
-            <span class="chip">Multimodal NLP</span>
-            <span class="chip">RAG Systems</span>
-            <span class="chip">Text Classification</span>
-            <span class="chip">vLLM</span>
-            <span class="chip">Kubernetes</span>
-            <span class="chip">Responsible AI</span>
-          </div>
-
-          <div class="hero-actions">
-            <a
-              class="button button-primary"
-              id="email-link"
-              href="mailto:samu.stalder@gmail.com?subject=ML%20Engineering%20Conversation"
-            >
-              Email
-            </a>
-            <a
-              class="button button-secondary"
-              id="linkedin-link"
-              href="https://www.linkedin.com/in/samuel-stalder"
-              target="_blank"
-              rel="noreferrer"
-            >
-              LinkedIn
-            </a>
-            <a
-              class="button button-secondary"
-              id="github-link"
-              href="https://github.com/samuelstalder1-creator"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub
-            </a>
-          </div>
-        </div>
-
-        <aside class="hero-panel" data-reveal>
-          <div class="panel-heading">
-            <p class="panel-kicker">At A Glance</p>
-            <p class="panel-copy" id="availability">
-              Currently Machine Learning Engineer at BSI Software, pursuing a part-time M.Sc. in
-              Data Science at ZHAW, and contributing to NLP-related research at InIT.
-            </p>
-          </div>
-
-          <div class="metric-grid" id="metric-grid">
-            <article class="metric-card">
-              <span class="metric-value">50%</span>
-              <p class="metric-label">Process automation</p>
-              <p>Achieved in document extraction workflows for a major German retailer.</p>
-            </article>
-            <article class="metric-card">
-              <span class="metric-value">2%</span>
-              <p class="metric-label">Error rate</p>
-              <p>Delivered by a production document understanding pipeline.</p>
-            </article>
-            <article class="metric-card">
-              <span class="metric-value">-20%</span>
-              <p class="metric-label">Inbound support emails</p>
-              <p>Reduced through a RAG-based assistant for a logistics client.</p>
-            </article>
-            <article class="metric-card">
-              <span class="metric-value">vLLM + K8s</span>
-              <p class="metric-label">Serving stack</p>
-              <p>Operated model-serving infrastructure in an AI-as-a-Service setup.</p>
-            </article>
-          </div>
-
-          <div class="focus-card">
-            <p class="panel-kicker">Current Focus</p>
-            <ul class="focus-list" id="focus-list">
-              <li>Multimodal document understanding for noisy real-world inputs</li>
-              <li>Support automation with retrieval-augmented generation</li>
-              <li>NLP classifiers for operational workflows</li>
-              <li>Reliable model serving and governance in enterprise settings</li>
-            </ul>
-          </div>
-        </aside>
-
-        <section class="signal-board" data-reveal aria-labelledby="selected-work-title">
-          <div class="board-head">
-            <div>
-              <p class="panel-kicker">Selected Work</p>
-              <h2 id="selected-work-title">Enterprise ML, research, and delivery.</h2>
-            </div>
-            <p class="board-note">
-              Focused on production systems with measurable outcomes and clear operational value.
-            </p>
-          </div>
-
-          <div class="board-grid" id="highlight-grid">
-            <article class="highlight-card">
-              <p class="card-kicker">01</p>
-              <h3>Multimodal document understanding</h3>
-              <p>
-                Designed and deployed a Qwen-based pipeline for scanned order cards, extracting
-                structured data from noisy retail documents with measurable production impact.
-              </p>
-              <span class="highlight-meta">LLMs / data extraction / enterprise rollout</span>
-            </article>
-            <article class="highlight-card">
-              <p class="card-kicker">02</p>
-              <h3>RAG support assistant</h3>
-              <p>
-                Built a retrieval-augmented customer support chatbot for a logistics company,
-                reducing inbound support emails and shifting recurring work away from manual
-                handling.
-              </p>
-              <span class="highlight-meta">RAG / support workflows / business impact</span>
-            </article>
-            <article class="highlight-card">
-              <p class="card-kicker">03</p>
-              <h3>Email routing automation</h3>
-              <p>
-                Developed NLP classifiers for a mobility service provider to automate customer
-                support email routing and improve downstream operational handling.
-              </p>
-              <span class="highlight-meta">Classification / workflow automation / NLP</span>
-            </article>
-            <article class="highlight-card">
-              <p class="card-kicker">04</p>
-              <h3>Serving and responsible AI</h3>
-              <p>
-                Combined model-serving operations with responsible AI work, including vLLM and
-                Kubernetes infrastructure as well as project-level ethics enablement.
-              </p>
-              <span class="highlight-meta">MLOps / governance / delivery</span>
-            </article>
-          </div>
-        </section>
-      </section>
-
-      <section class="section summary-band" data-reveal>
-        <div>
-          <p class="section-kicker">Profile</p>
-          <h2>Production NLP and generative AI with a software engineering base.</h2>
-        </div>
-        <p id="profile-summary">
+      <section class="intro section" id="about">
+        <p class="eyebrow" data-reveal>Samuel Stalder</p>
+        <h1 data-reveal>Data Scientist / ML Engineer</h1>
+        <p class="intro-copy" data-reveal>
           ML Engineer with production experience building and deploying NLP and generative AI
-          systems for enterprise clients. Delivered multimodal document understanding pipelines,
-          RAG-based support assistants, and text classification solutions, and operated
-          model-serving infrastructure in Kubernetes environments. Currently pursuing a part-time
-          M.Sc. in Data Science with research in NLP and information retrieval.
+          systems for enterprise clients. Currently working at BSI Software while pursuing a
+          part-time M.Sc. in Data Science at ZHAW.
         </p>
+
+        <div class="meta-line" data-reveal>
+          <span>Zurich, Switzerland</span>
+          <span>BSI Software</span>
+          <span>ZHAW InIT</span>
+        </div>
+
+        <div class="link-row" data-reveal>
+          <a
+            href="mailto:samu.stalder@gmail.com?subject=ML%20Engineering%20Conversation"
+          >
+            Email
+          </a>
+          <a href="https://www.linkedin.com/in/samuel-stalder" target="_blank" rel="noreferrer">
+            LinkedIn
+          </a>
+          <a href="https://github.com/samuelstalder1-creator" target="_blank" rel="noreferrer">
+            GitHub
+          </a>
+        </div>
       </section>
 
       <section class="section" id="experience">
         <div class="section-head" data-reveal>
           <p class="section-kicker">Experience</p>
-          <h2>Roles across enterprise software, applied machine learning, and research.</h2>
+          <h2>Production work in enterprise software, applied ML, and research.</h2>
         </div>
-        <div class="experience-grid" id="experience-grid">
-          <article class="experience-card" data-reveal>
-            <div class="card-header">
+
+        <div class="timeline">
+          <article class="entry" data-reveal>
+            <div class="entry-head">
               <div>
-                <p class="card-kicker">Experience</p>
                 <h3>BSI Software</h3>
+                <p class="entry-meta">Zurich, Switzerland</p>
               </div>
-              <p class="card-location">Zurich, Switzerland</p>
             </div>
 
-            <section class="role-block">
+            <section class="role">
               <div class="role-head">
                 <h4>Machine Learning Engineer</h4>
                 <p class="role-period">2024 - Present</p>
               </div>
               <ul class="role-points">
                 <li>
-                  Designed and deployed a Qwen-based multimodal LLM pipeline for document
-                  understanding and data extraction from scanned order cards for a major German
-                  retailer, achieving 50% process automation with a 2% error rate.
+                  Built and deployed a Qwen-based multimodal pipeline for scanned order cards,
+                  reaching 50% process automation with a 2% error rate.
                 </li>
                 <li>
-                  Built a RAG-based customer support chatbot for a logistics company, reducing
-                  inbound support emails by 20%.
+                  Developed a RAG-based support assistant for a logistics client, reducing inbound
+                  support emails by 20%.
                 </li>
                 <li>
-                  Developed NLP classifiers to automate routing of customer support emails for a
-                  mobility service provider.
+                  Developed NLP classifiers for routing customer support emails and operated model
+                  serving with vLLM and Kubernetes.
                 </li>
-                <li>
-                  Operated model serving infrastructure using vLLM and Kubernetes in an
-                  AI-as-a-Service architecture.
-                </li>
-                <li>
-                  Served as Ethics Enabler, embedding responsible AI practices across project
-                  delivery.
-                </li>
+                <li>Acted as Ethics Enabler for responsible AI delivery across projects.</li>
               </ul>
             </section>
 
-            <section class="role-block">
+            <section class="role">
               <div class="role-head">
                 <h4>Software Engineer</h4>
                 <p class="role-period">2022 - 2024</p>
               </div>
               <ul class="role-points">
                 <li>
-                  Engineered backend and frontend components of a mission-critical retail
-                  application for Swiss Post using Java, Eclipse Scout, and web technologies.
+                  Built backend and frontend components for a mission-critical retail application
+                  for Swiss Post.
                 </li>
                 <li>
-                  Integrated external hardware such as payment terminals and connected data systems
-                  including Kafka, Oracle, and MariaDB.
+                  Integrated payment terminals and connected systems including Kafka, Oracle, and
+                  MariaDB.
                 </li>
-                <li>
-                  Contributed to requirements engineering, testing, and system maintenance in an
-                  agile environment.
-                </li>
+                <li>Contributed to requirements engineering, testing, and maintenance.</li>
               </ul>
             </section>
           </article>
 
-          <article class="experience-card" data-reveal>
-            <div class="card-header">
+          <article class="entry" data-reveal>
+            <div class="entry-head">
               <div>
-                <p class="card-kicker">Experience</p>
                 <h3>ZHAW InIT</h3>
+                <p class="entry-meta">Winterthur, Switzerland</p>
               </div>
-              <p class="card-location">Winterthur, Switzerland</p>
             </div>
 
-            <section class="role-block">
+            <section class="role">
               <div class="role-head">
                 <h4>Research Project</h4>
                 <p class="role-period">2025 - Present</p>
               </div>
               <ul class="role-points">
+                <li>Training a BERT-based classifier to detect covert advertising in RAG output.</li>
                 <li>
-                  Training a BERT-based classifier to detect covert advertisement injected into RAG
-                  system outputs.
+                  Researching AI-generated text detection with supervised, stylometric, and
+                  zero-shot methods.
                 </li>
                 <li>
-                  Researching detection of AI-generated text using supervised, stylometric, and
-                  zero-shot approaches.
-                </li>
-                <li>
-                  Authoring a survey paper on the Dead Internet Theory, linking technical findings
-                  to societal implications.
+                  Writing a survey paper on the Dead Internet Theory and its societal implications.
                 </li>
               </ul>
             </section>
           </article>
 
-          <article class="experience-card" data-reveal>
-            <div class="card-header">
+          <article class="entry" data-reveal>
+            <div class="entry-head">
               <div>
-                <p class="card-kicker">Experience</p>
                 <h3>Novalink</h3>
+                <p class="entry-meta">Frauenfeld, Thurgau</p>
               </div>
-              <p class="card-location">Frauenfeld, Thurgau</p>
             </div>
 
-            <section class="role-block">
+            <section class="role">
               <div class="role-head">
                 <h4>Full Stack Intern</h4>
                 <p class="role-period">2017 - 2018</p>
@@ -337,169 +184,110 @@
         </div>
       </section>
 
-      <section class="section" id="research">
-        <div class="section-head" data-reveal>
-          <p class="section-kicker">Research</p>
-          <h2>Current NLP and information quality topics.</h2>
-        </div>
-        <div class="research-grid" id="research-grid">
-          <article class="research-card" data-reveal>
-            <p class="card-kicker">Topic</p>
-            <h3>RAG output integrity</h3>
-            <p>
-              Training a BERT-based classifier to identify covert advertising injected into
-              retrieval-augmented generation outputs.
-            </p>
-            <span class="research-meta">Classification / trust / evaluation</span>
-          </article>
-          <article class="research-card" data-reveal>
-            <p class="card-kicker">Topic</p>
-            <h3>AI-generated text detection</h3>
-            <p>
-              Comparing supervised, stylometric, and zero-shot approaches for detecting
-              machine-generated text in realistic settings.
-            </p>
-            <span class="research-meta">NLP / stylometry / detection</span>
-          </article>
-          <article class="research-card" data-reveal>
-            <p class="card-kicker">Topic</p>
-            <h3>Dead Internet Theory survey</h3>
-            <p>
-              Writing a survey paper that links technical findings around synthetic content and
-              online signals to broader societal implications.
-            </p>
-            <span class="research-meta">Research synthesis / societal context</span>
-          </article>
-        </div>
-      </section>
-
-      <section class="section" id="skills">
-        <div class="section-head" data-reveal>
-          <p class="section-kicker">Skills</p>
-          <h2>Applied machine learning, software delivery, and infrastructure.</h2>
-        </div>
-
-        <div class="skills-layout">
-          <div class="skills-table" id="skills-table">
-            <article class="skill-row" data-reveal>
-              <div class="skill-label">ML / AI</div>
-              <p>
-                PyTorch, Hugging Face Transformers, scikit-learn, vLLM, RAG, agentic systems, NLP
-              </p>
-            </article>
-            <article class="skill-row" data-reveal>
-              <div class="skill-label">Languages</div>
-              <p>Python, TypeScript, Java, SQL</p>
-            </article>
-            <article class="skill-row" data-reveal>
-              <div class="skill-label">Infrastructure</div>
-              <p>Kubernetes, Docker, Kafka, Oracle, MariaDB, Jupyter, n8n</p>
-            </article>
-            <article class="skill-row" data-reveal>
-              <div class="skill-label">Practices</div>
-              <p>Responsible AI, MLOps, Agile / Scrum</p>
-            </article>
+      <section class="section detail-grid" id="details">
+        <div class="detail-column">
+          <div class="section-head" data-reveal>
+            <p class="section-kicker">Skills</p>
+            <h2>Core tools and working style.</h2>
           </div>
 
-          <div class="side-stack">
-            <article class="info-card" data-reveal>
-              <p class="panel-kicker">Communication</p>
-              <ul class="detail-list" id="communication-list">
-                <li>German (native)</li>
-                <li>English (C1)</li>
-              </ul>
-            </article>
+          <article class="simple-card" data-reveal>
+            <dl class="skill-list">
+              <div>
+                <dt>ML / AI</dt>
+                <dd>
+                  PyTorch, Hugging Face Transformers, scikit-learn, vLLM, RAG, agentic systems,
+                  NLP
+                </dd>
+              </div>
+              <div>
+                <dt>Languages</dt>
+                <dd>Python, TypeScript, Java, SQL</dd>
+              </div>
+              <div>
+                <dt>Infrastructure</dt>
+                <dd>Kubernetes, Docker, Kafka, Oracle, MariaDB, Jupyter, n8n</dd>
+              </div>
+              <div>
+                <dt>Practices</dt>
+                <dd>Responsible AI, MLOps, Agile / Scrum</dd>
+              </div>
+            </dl>
+          </article>
+        </div>
 
-            <article class="info-card" data-reveal>
-              <p class="panel-kicker">Additional</p>
-              <div class="detail-block">
-                <p class="detail-label">Community service</p>
-                <p id="service-copy">
-                  Nursing assistance, refugee aid, farm work, and youth hostel operations
-                  (2018 - 2024).
-                </p>
-              </div>
-              <div class="detail-block">
-                <p class="detail-label">Interests</p>
-                <p id="interests-copy">Triathlon, fermentation, photography, and violin.</p>
-              </div>
-            </article>
+        <div class="detail-column">
+          <div class="section-head" data-reveal>
+            <p class="section-kicker">Details</p>
+            <h2>Education, research, and additional background.</h2>
           </div>
-        </div>
-      </section>
 
-      <section class="section" id="education">
-        <div class="section-head" data-reveal>
-          <p class="section-kicker">Education</p>
-          <h2>Formal training across data science, software engineering, and development.</h2>
-        </div>
-        <div class="education-grid" id="education-grid">
-          <article class="education-card" data-reveal>
-            <p class="card-kicker">Education</p>
-            <h3>M.Sc. Data Science (part-time)</h3>
-            <p>ZHAW School of Engineering, InIT</p>
-            <p class="education-period">2024 - Present</p>
-            <p class="education-note">
-              Advanced study alongside industry work, centered on data science and NLP-related
-              research.
+          <article class="simple-card stack-card" data-reveal>
+            <div class="stack-item">
+              <h3>M.Sc. Data Science (part-time)</h3>
+              <p>ZHAW School of Engineering, InIT</p>
+              <p class="stack-meta">2024 - Present</p>
+            </div>
+            <div class="stack-item">
+              <h3>B.Sc. Computer Science</h3>
+              <p>ZHAW School of Engineering</p>
+              <p class="stack-meta">2019 - 2022</p>
+            </div>
+            <div class="stack-item">
+              <h3>EFZ Application Developer</h3>
+              <p>IMS Frauenfeld</p>
+              <p class="stack-meta">2014 - 2018</p>
+            </div>
+          </article>
+
+          <article class="simple-card" data-reveal>
+            <p class="card-kicker">Research</p>
+            <ul class="compact-list">
+              <li>RAG output integrity and covert advertising detection</li>
+              <li>AI-generated text detection across supervised and zero-shot settings</li>
+              <li>Survey work on the Dead Internet Theory</li>
+            </ul>
+          </article>
+
+          <article class="simple-card" data-reveal>
+            <p class="card-kicker">Additional</p>
+            <p class="compact-paragraph"><strong>Communication:</strong> German (native), English (C1)</p>
+            <p class="compact-paragraph">
+              <strong>Community service:</strong> Nursing assistance, refugee aid, farm work, and
+              youth hostel operations (2018 - 2024)
+            </p>
+            <p class="compact-paragraph">
+              <strong>Interests:</strong> Triathlon, fermentation, photography, violin
             </p>
           </article>
-          <article class="education-card" data-reveal>
-            <p class="card-kicker">Education</p>
-            <h3>B.Sc. Computer Science</h3>
-            <p>ZHAW School of Engineering</p>
-            <p class="education-period">2019 - 2022</p>
-            <p class="education-note">Academic foundation in software engineering and computing.</p>
-          </article>
-          <article class="education-card" data-reveal>
-            <p class="card-kicker">Education</p>
-            <h3>EFZ Application Developer</h3>
-            <p>IMS Frauenfeld</p>
-            <p class="education-period">2014 - 2018</p>
-            <p class="education-note">Vocational training in application development.</p>
-          </article>
         </div>
       </section>
 
-      <section class="section contact-panel" id="contact" data-reveal>
-        <div class="contact-copy">
+      <section class="section contact-strip" id="contact" data-reveal>
+        <div>
           <p class="section-kicker">Contact</p>
-          <h2>Available for conversations around data science, ML engineering, and NLP work.</h2>
-          <p id="contact-summary">
-            Email is the fastest way to reach me. Happy to discuss data science, ML engineering,
-            NLP, and applied AI work.
-          </p>
+          <h2>Open for relevant conversations.</h2>
+          <p class="contact-copy">Email is the fastest way to reach me.</p>
         </div>
 
-        <div class="contact-actions">
-          <a
-            class="button button-primary"
-            id="contact-email-link"
-            href="mailto:samu.stalder@gmail.com?subject=ML%20Engineering%20Conversation"
-          >
-            Email
+        <div class="contact-links">
+          <a href="mailto:samu.stalder@gmail.com?subject=ML%20Engineering%20Conversation">
+            samu.stalder@gmail.com
           </a>
-          <a class="button button-secondary" id="phone-link" href="tel:+41792694025">
-            079 269 40 25
-          </a>
-          <a
-            class="button button-secondary"
-            id="contact-linkedin-link"
-            href="https://www.linkedin.com/in/samuel-stalder"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="tel:+41792694025">079 269 40 25</a>
+          <a href="https://www.linkedin.com/in/samuel-stalder" target="_blank" rel="noreferrer">
             LinkedIn
+          </a>
+          <a href="https://github.com/samuelstalder1-creator" target="_blank" rel="noreferrer">
+            GitHub
           </a>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>
-        Static site for GitHub Pages. Content lives in <code>script.js</code>.
-      </p>
-      <p><span id="footer-name">Samuel Stalder</span> <span id="year"></span></p>
+      <p>Static site for GitHub Pages.</p>
+      <p>Samuel Stalder <span id="year"></span></p>
     </footer>
 
     <script src="script.js" defer></script>

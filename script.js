@@ -1,10 +1,3 @@
-const text = (selector, value) => {
-  const node = document.querySelector(selector);
-  if (node) {
-    node.textContent = value;
-  }
-};
-
 const initReveal = () => {
   const revealNodes = document.querySelectorAll("[data-reveal]");
 
@@ -22,7 +15,7 @@ const initReveal = () => {
         }
       });
     },
-    { threshold: 0.16 },
+    { threshold: 0.14 },
   );
 
   revealNodes.forEach((node) => observer.observe(node));
@@ -49,8 +42,15 @@ const initNav = () => {
   });
 };
 
+const initYear = () => {
+  const year = document.querySelector("#year");
+  if (year) {
+    year.textContent = new Date().getFullYear();
+  }
+};
+
 const init = () => {
-  text("#year", new Date().getFullYear());
+  initYear();
   initReveal();
   initNav();
 };
